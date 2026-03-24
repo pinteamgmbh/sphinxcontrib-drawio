@@ -328,6 +328,7 @@ class DrawIOConverter(ImageConverter):
             "--output",
             str(export_abspath),
             str(input_abspath),
+            "--embed-svg-images",
         ]
 
         if not disable_verbose_electron:
